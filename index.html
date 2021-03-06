@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>my dropdown</title>
+        <style>
+            .nav
+            {
+                height:50px;
+                width:100%;
+                background-color: green;
+                color:white;
+                line-height:50px;
+                font-size: 23px;
+            }
+            ul li 
+            {
+                list-style-type:none;
+                margin-left:20px;
+                margin-right:20px;
+                float:left;
+            }
+            ul li:hover{color:red;}
+            .nav1 li {float:none;
+            background-color:grey;
+            color:green;}
+
+            ul li ul:hover{
+                display:inline-block;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="nav">
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT
+                    <div class="nav-content">
+                    <ul class="nav1">
+                        <li>ABOUT US</li>
+                        <li>PROFILE</li>
+                        <li>AUTHORITIES</li>
+                        <li>DIRECTOR MESSAGE</li>
+                    </ul></div>
+                </li>
+                <li>REGISTER ONLINE</li>
+                <li>STUDENT SUPPORT</li>
+                <li>CONTACT US</li>
+            </ul>
+        </div>
+    </body>
+</html>
+
+
